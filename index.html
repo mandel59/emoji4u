@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Unicode Emoji for You</title>
+<style>
+@font-face {
+	font-family: 'Android Emoji';
+	src: local('Android Emoji'), url(./AndroidEmoji.ttf) format('truetype');
+}
+body {
+	text-align: center;
+}
+#glyph {
+	font-family: 'Android Emoji';
+	font-size: 27em;
+	line-height: 1.25em;
+}
+</style>
+<body>
+<div id="glyph">☺</div>
+<div id="code"></div>
+<script src="emoji.js"></script>
+<script src="emoji_list.js"></script>
+</body>
+</html>
