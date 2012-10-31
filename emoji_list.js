@@ -20,7 +20,7 @@ var catList = list("😸", "🙀").concat("🐱");
 
 var emojiMap = {
 	"#A4C639": /* Droid green */ droidList,
-	"#FFB74C": /* orange */ catList,
-	"brown": monkeyList.concat("🐻"),
-	"black": ["🐜", "🐧", "🐾"],
+	"#FFB74C": /* orange */ catList.concat("🎃", "🐝"),
+	"#762f07": /* brown */ monkeyList.concat("🐻"),
+	"#2b2b2b": /* black */ ["🐜", "🐧", "🐾", "👻"],
 };
